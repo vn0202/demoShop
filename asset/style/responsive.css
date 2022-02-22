@@ -1,0 +1,248 @@
+@media screen and (max-width: 1023px)
+
+{
+   .hide-on-mobie-tablet{
+      display: none;
+   }
+   .footer-list-down{
+      flex-direction: column;
+   }
+   
+   .header__sort-bar{
+      display: flex;
+   }
+   .app__container{
+   margin-top: calc( var(--height-header) + var(--height-sort-bar));
+  }
+  .header__cart-list{
+     position: fixed;
+     right: 0;
+     left: 0;
+     top: var(--height-header);
+     padding: 0 calc((100% - 644px) / 2);
+     
+
+  }
+  .header__cart-list::before{
+     display: none;
+  }
+.header__cart-products{
+   max-height: 35vh;
+}
+.product__nav-mobie{
+   display: flex;
+}
+}
+
+/* tablet */
+@media screen and (min-width:740px) and (max-width: 1023px){
+   :root{
+      --height-header:60px;
+      --height-nav:0px;
+     
+   }
+    .hide-on-tablet{
+        display: none;
+    }
+    .header__search-selection{
+        flex-basis: 20%;
+    }
+    
+    .m-0{
+        display: none;
+    }
+    
+    .m-1{
+       flex:0 0 8.33333%;
+    
+    max-width:8.33333%}
+    .m-2{
+       flex:0 0 16.66667% ;
+       max-width:16.66667%;
+    }
+    .m-3{
+       flex:0 0 25% ;
+       max-width:25%;
+    }
+    .m-2-5{
+       flex: 0 0 20%;
+       max-width: 20%;
+    }
+    .m-4{
+       flex:0 0 33.33333% ;
+       max-width:33.33333%
+    }
+    
+    .m-5{
+       flex:0 0 41.66667% ;
+       max-width:41.66667%
+    }
+    .m-6{
+       flex:0 0 50% ;
+       max-width:50%
+    }
+    .m-7{
+       flex:0 0 58.33333% ;
+       max-width:58.33333%
+    }
+    .m-8{
+       flex:0 0 66.66667% ;
+       max-width:66.66667%
+    }
+    .m-9{
+       flex:0 0 75% ;
+       max-width:75%
+    }
+    .m-10{
+       flex:0 0 83.33333% ;
+       max-width:83.33333%
+    }
+    .m-11{
+       flex:0 0 91.66667% ;
+       max-width:91.66667%
+    }
+    .m-12{
+        flex:0 0 100% ;
+        max-width:100%;
+    }
+    .m-5{
+       flex:0 0 100% ;
+       max-width:100%
+    }
+
+}
+@media screen and (max-width:739px){
+   :root{
+      --height-header:54px;
+      --height-nav:0px;
+   }
+   .hide-on-mobie{
+      display: none;
+   }
+.header__under-nav{
+   justify-content: space-between;
+   padding: 0 12px;
+}
+.header__system {
+   color: var(--white-color);
+   flex-basis: unset;
+}
+.header__under-nav-bar-icon{
+   display: block;
+
+}
+.header__search-mobie{
+   display: block;
+}
+.header__search{
+
+   position: absolute;
+   top:var(--height-header);
+   right: 0;
+   left: 0;
+   z-index: 1;
+   animation:fromTop linear 0.3s ;
+
+}
+.history__search{
+   position: fixed;
+   right: 0;
+   left: 0;
+   top: calc(var(--height-header) + var(--height-sort-bar));
+   width: 100%;
+   box-shadow: 0 2px 2px rgb(238, 236, 236);
+}
+.panigation-item__link{
+   font-size: 1.6rem;
+   height: 26px;
+   min-width: 26px;
+   line-height: 26px;
+   margin: 0 8px;
+}
+.grid__row{
+   margin: 0;
+}
+.container-row{
+   padding-top: 0;
+}
+.footer-heading{
+   text-align: center;
+}
+.footer-item-link{
+   text-align: center;
+}
+.footer-list-item-img{
+   margin-bottom: 12px;
+}
+    .s-0{
+        display: none;
+    }
+    
+    .s-1{
+       flex:0 0 8.33333%;
+    
+    max-width:8.33333%}
+    .s-2{
+       flex:0 0 16.66667% ;
+       max-width:16.66667%;
+    }
+    .s-3{
+       flex:0 0 25% ;
+       max-width:25%;
+    }
+    .s-2-5{
+       flex: 0 0 20%;
+       max-width: 20%;
+    }
+    .s-4{
+       flex:0 0 33.33333% ;
+       max-width:33.33333%;
+    }
+    .s-5{
+       flex:0 0 41.66667% ;
+       max-width:41.66667%;
+    }
+    .s-6{
+       flex:0 0 50% ;
+       max-width:50%;
+    }
+    .s-7{
+       flex:0 0 58.33333% ;
+       max-width:58.33333%
+    }
+    .s-8{
+       flex:0 0 66.66667% ;
+       max-width:66.66667%
+    }
+    .s-9{
+       flex:0 0 75% ;
+       max-width:75%
+    }
+    .s-10{
+       flex:0 0 83.33333% ;
+       max-width:83.33333%
+    }
+    .s-11{
+       flex:0 0 91.66667% ;
+       max-width:91.66667%
+    }
+    .s-12{
+        flex:0 0 100% ;
+        max-width:100%;
+        
+    }
+    .s-5{
+       flex:0 0 100% ;
+       max-width:100%
+    }
+    .footer-item{
+       text-align: center;
+    }
+
+}
+@media screen and (max-width:600px){
+   .header__search-selection{
+      display: none;
+   }
+
+}
